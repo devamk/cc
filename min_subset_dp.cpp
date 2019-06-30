@@ -51,23 +51,8 @@ int soln(int* arr,  int total_sum, int len){
             min_sum=abs(total_sum-(2*i));
         }
     }
-    // for (int j=0;j<=len;j++){
-    //     cout << mat[im][j]<<"="<<arr[j]<<"|";
-    // }
-    // cout <<"E";
-    
-    // for (int i=0;i<=total_sum;i++){
-    //     if (i==im){
-    //         cout<<"+";
-    //     }
-    //     for (int j=0;j<=len;j++){
-    //         cout << mat[i][j]<<"="<<arr[j]<<"|";
-    //     }
-    //     cout <<";"<<endl;
-    // }
     
     
-    // cout << "sum"<<total_sum;
     return min_sum;
 }
 
